@@ -1,0 +1,15 @@
+
+jared = Backer.new
+#=> jared with @backed_projects = []
+
+catherine = Backer.new 
+#=> catherine with @backed_projects=[]
+
+kickstart = Project.new
+#=> kickstart with @backers =[]
+
+
+
+jared.back_project(kickstart)
+#=> jared's @backed_projects = [kickstart]
+
