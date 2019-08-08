@@ -4,6 +4,8 @@ class Project
     @@all = []
 
 
+
+    
     def initialize(title)
         @title = title
         @backers = []
